@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="img/my-photo.png" rel="icon">
-  
+
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -127,7 +127,7 @@
   <!-- portfolio section -->
   <section class="site-section" id="section-portfolio">
     <div class="container">
-      <div class="row">
+      <div class="row about-heading-wrap">
         <div class="section-heading text-center col-md-12">
           <h2>Featured <strong>Portfolio</strong></h2>
         </div>
@@ -144,7 +144,7 @@
                   <img class="image img-fluid" src="img/Mentor dashboard cover page (1).png" alt="Project 1 Thumbnail">
                   <div class="overlay-text">
                     <h4>Project 1</h4>
-                    <div class="cat">Mentorship Dashboard /Education</div>
+                    <div class="cat">Mentorship Dashboard / Education Platform UI/UX</div>
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@
                   <img class="image img-fluid" src="img/OOTD (3).jpg" alt="Project 1 Thumbnail">
                   <div class="overlay-text">
                     <h4>Project 2</h4>
-                    <div class="cat">OOTD / Fashion</div>
+                    <div class="cat">OOTD - Outfit of the Day / Fashion Planning Mobile App</div>
                   </div>
                 </div>
               </div>
@@ -175,7 +175,7 @@
                   <img class="image img-fluid" src="img/Anaya.jpg" alt="Project 1 Thumbnail">
                   <div class="overlay-text">
                     <h4>Project 3</h4>
-                    <div class="cat">Anaya(Woman Safety) / Saftey</div>
+                    <div class="cat">Anaya: Women’s Safety App / Safety & Community Support</div>
                   </div>
                 </div>
               </div>
@@ -190,7 +190,7 @@
                   <img class="image img-fluid" src="img/covetus.jpg" alt="Project 1 Thumbnail">
                   <div class="overlay-text">
                     <h4>Project 4</h4>
-                    <div class="cat">IT Services Website / IT</div>
+                    <div class="cat">IT Solutions / Corporate Website Design</div>
                   </div>
                 </div>
               </div>
@@ -205,7 +205,7 @@
                   <img class="image img-fluid" src="img/signpl.jpg" alt="Project 1 Thumbnail">
                   <div class="overlay-text">
                     <h4>Project 5</h4>
-                    <div class="cat">Esignature Frontend website /IT </div>
+                    <div class="cat">SignPaperless / E-Signature Platform Frontend </div>
                   </div>
                 </div>
               </div>
@@ -220,7 +220,7 @@
                   <img class="image img-fluid" src="img/amongs.png" alt="Project 1 Thumbnail">
                   <div class="overlay-text">
                     <h4>Project 6</h4>
-                    <div class="cat">Game Frontend Website /Game</div>
+                    <div class="cat">Among Us Fan Website / Gaming Landing Page UI</div>
                   </div>
                 </div>
               </div>
@@ -236,11 +236,13 @@
   <div class="about-section" id="about-section">
     <div class="about-container">
       <div class="about-heading-wrap">
-        <h2>About Me</h2>
+        <div class="section-heading text-center mb-5">
+          <h2>About <strong>Me</strong></h2>
+        </div>
       </div>
       <div class="about-row">
         <div class="about-col-image">
-          <img src="img/my-photo.png" alt="Profile Photo">
+          <img src="img/personal-photo.jpg" alt="Profile Photo">
         </div>
         <div class="about-col-text">
           <h3 class="about-heading-h3">Designing Seamless, Strategic Experiences</h3>
@@ -319,9 +321,9 @@
   </section> -->
   <section class="site-section resume-section" id="section-resume">
     <div class="container">
-      <div class="section-heading text-center mb-5">
+      <div class="section-heading text-center mb-5 about-heading-wrap">
         <h2>My <strong>Resume</strong></h2>
-        <p class="subtext">A quick overview of my education and experience journey</p>
+        <!-- <p class="subtext">A quick overview of my education and experience journey</p> -->
       </div>
       <div class="row">
         <div class="col-md-6">
@@ -390,7 +392,7 @@
 
   <section class="skills-section" id="section-services">
     <div class="skills-container">
-      <div class="skills-heading-wrap">
+      <div class="skills-heading-wrap about-heading-wrap">
         <h2>My <strong>Skills</strong></h2>
       </div>
       <div class="skills-row">
@@ -417,7 +419,7 @@
   <!-- comtact css -->
   <section class="contact-section" id="section-contact">
     <div class="contact-container">
-      <div class="contact-heading">
+      <div class="contact-heading about-heading-wrap">
         <h2>Get <strong>In Touch</strong></h2>
       </div>
       <div class="contact-grid">
@@ -430,11 +432,15 @@
           <button type="submit">Send Message</button>
         </form>
         <div class="contact-details">
-          <h3>Contact Details</h3>
-          <p><strong>Email:</strong>eshreya2401@gmail.com</p>
-          <p><strong>Phone:</strong> +91 90981 18290</p>
-          <p><strong>Location:</strong> Indore, India</p>
+          <h3>Let's talk...</h3>
+          <p>I'm always open to discuss your project and talk about new things, so feel free to drop me a line:</p>
+          <ul>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:eshreya2401@gmail.com">eshreya2401@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+919098118290">+91 90981 18290</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Indore, India</li>
+          </ul>
         </div>
+
       </div>
     </div>
   </section>
@@ -449,24 +455,27 @@
             &copy;
             <script>document.write(new Date().getFullYear());</script> All rights reserved.
           </p>
-          <!-- <p class="small">
-            Made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a
-              href="https://www.behance.net/shreyaengle1" target="_blank" class="text-primary">Shreya Engle</a>
-          </p> -->
+          <p class="small">
+            Crafted with ❤️ by Shreya Engle
+          </p>
         </div>
       </div>
 
-     <div class="row">
-  <div class="col-md-12 text-center">
-    <div class="social-icons">
-      <a href="https://twitter.com/" target="_blank" class="social-item mx-2"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/" target="_blank" class="social-item mx-2"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/shreya-engle-588a001b9/" target="_blank" class="social-item mx-2"><i class="fab fa-linkedin-in"></i></a>
-      <a href="https://www.behance.net/shreyaengle1" target="_blank" class="social-item mx-2"><i class="fab fa-behance"></i></a>
-      <a href="mailto:eshreya2401@gmail.com" target="_blank" class="social-item mx-2"><i class="fas fa-envelope"></i></a>
-    </div>
-  </div>
-</div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="social-icons">
+            <a href="https://twitter.com/" target="_blank" class="social-item mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-item mx-2"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/shreya-engle-588a001b9/" target="_blank" class="social-item mx-2"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.behance.net/shreyaengle1" target="_blank" class="social-item mx-2"><i
+                class="fab fa-behance"></i></a>
+            <a href="mailto:eshreya2401@gmail.com" target="_blank" class="social-item mx-2"><i
+                class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
 
 
     </div>

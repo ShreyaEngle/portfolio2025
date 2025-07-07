@@ -2454,6 +2454,7 @@ a:active {
 
 .section-heading h2 strong {
   font-weight: 800;
+  color: #00c6ff;
 }
 
 .section-heading.text-center h2:before {
@@ -3224,7 +3225,6 @@ a.btn.btn-outline-pill.btn-custom-light {
   color: #ffffff;
   position: relative;
   display: inline-block;
-  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -3541,7 +3541,8 @@ a.btn.btn-outline-pill.btn-custom-light {
   justify-content: center;
   width: 48px;
   height: 48px;
-  background-color: #2c2c2c; /* circle background */
+  background-color: #2c2c2c;
+  /* circle background */
   border-radius: 50%;
   color: #f5f5f5;
   font-size: 1.2rem;
@@ -3549,7 +3550,8 @@ a.btn.btn-outline-pill.btn-custom-light {
 }
 
 .social-icons .social-item:hover {
-  background-color: #00bfff; /* hover background */
+  background-color: #00bfff;
+  /* hover background */
   color: #fff;
   transform: scale(1.1);
 }
@@ -3559,4 +3561,67 @@ a.btn.btn-outline-pill.btn-custom-light {
   justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+.contact-details {
+  background: #0e0e0e;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 442px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.contact-details h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #00ffff;
+}
+
+.contact-details p {
+  color: #ccc;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-details li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  color: #eee;
+}
+
+.contact-details i {
+  color: #00ffff;
+  margin-right: 10px;
+  font-size: 1.1rem;
+  min-width: 18px;
+  text-align: center;
+}
+
+.contact-details a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-details a:hover {
+  color: #00ffff;
 }
